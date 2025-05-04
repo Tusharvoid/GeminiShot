@@ -5,7 +5,7 @@ import google.generativeai as genai
 from pynput import keyboard
 
 # Configure the generative AI model
-genai.configure(api_key='AIzaSyBMK1b_wZWqM2eiq11ln0i9uxGOuZ5uX5Q')
+genai.configure(api_key='')
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 class ScreenshotApp:
